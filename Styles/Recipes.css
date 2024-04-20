@@ -1,0 +1,49 @@
+ /*accordion*/
+ .accordion {
+    background-color: #000000;
+    color: #97f2ae;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+  }
+
+  .accordion:hover {
+    background-color: rgb(38, 121, 138);
+  }
+  
+    button {
+    text-align: center;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2rem;
+  }
+
+  .panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+  }
+
+  .ingredients {
+    list-style-type: square;
+  }
+
+  .button-container {
+    text-align: center;
+  }
+
+  #random {
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+  }
+
+  #random:hover {
+    background-color: rgb(255, 104, 242);
+  }
