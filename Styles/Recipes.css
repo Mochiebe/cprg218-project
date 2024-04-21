@@ -32,6 +32,10 @@
     list-style-type: square;
   }
 
+  .ingredient {
+    text-align: left;
+  }
+
   .button-container {
     text-align: center;
   }
@@ -46,4 +50,18 @@
 
   #random:hover {
     background-color: rgb(255, 104, 242);
+  }
+
+  .meal {
+    background-color: #000000;
+    color: #97f2ae;
+    text-align: center;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2rem;
+  }
+
+  .instr {
+    text-align: left;
   }
